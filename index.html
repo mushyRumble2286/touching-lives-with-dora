@@ -428,6 +428,18 @@
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
         }
 
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+
         /* Contact Form */
         .form-group {
             margin-bottom: 2rem;
@@ -728,12 +740,12 @@
                 <p style="color: #666; margin-top: 1rem; font-weight: 500;">Click to see pictures and videos of our community service projects</p>
             </div>
             <div class="gallery-grid">
-                <div class="gallery-item">Project Photo 1</div>
-                <div class="gallery-item">Project Photo 2</div>
-                <div class="gallery-item">Project Photo 3</div>
-                <div class="gallery-item">Project Photo 4</div>
-                <div class="gallery-item">Project Photo 5</div>
-                <div class="gallery-item">Project Photo 6</div>
+                <div class="gallery-item"><img src="gallery pictures/IMG-20240111-WA0005.jpg" alt="Touching Lives with Dora & Friends community service project" loading="lazy"></div>
+                <div class="gallery-item"><img src="gallery pictures/IMG-20240111-WA0008.jpg" alt="Touching Lives with Dora & Friends community service project" loading="lazy"></div>
+                <div class="gallery-item"><img src="gallery pictures/IMG-20240112-WA0019.jpg" alt="Touching Lives with Dora & Friends community service project" loading="lazy"></div>
+                <div class="gallery-item"><img src="gallery pictures/IMG_20230711_102822.jpg" alt="Touching Lives with Dora & Friends community service project" loading="lazy"></div>
+                <div class="gallery-item"><img src="gallery pictures/IMG_20230711_112126.jpg" alt="Touching Lives with Dora & Friends community service project" loading="lazy"></div>
+                <div class="gallery-item"><img src="gallery pictures/IMG_20250723_082850.jpg" alt="Touching Lives with Dora & Friends community service project" loading="lazy"></div>
             </div>
         </section>
     </div>
